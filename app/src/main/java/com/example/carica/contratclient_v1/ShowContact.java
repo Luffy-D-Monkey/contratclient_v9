@@ -82,7 +82,7 @@ public class ShowContact extends AppCompatActivity
     int choose = -1;//第一次长按的位置，让它被选定
     boolean isClosing = false;//关闭选择的一瞬间
 
-//侧滑菜单
+    //侧滑菜单
     private ListView listView;
 
     private DrawerLayout drawerLayout;
@@ -101,13 +101,13 @@ public class ShowContact extends AppCompatActivity
                         logg = "no:用户非首次登录";
                     else{
 
-                          adapter = new FruitAdapter(getApplicationContext(),R.layout.item_layout,fruitList);
+                        adapter = new FruitAdapter(getApplicationContext(),R.layout.item_layout,fruitList);
 
                         //if(llllllllllsssssttt.size() == 0)
-                            Toast.makeText(getApplicationContext(),"<magod>-空",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),"<magod>-空",Toast.LENGTH_SHORT).show();
 
                         //for(int i = 0; i<llllllllllsssssttt.size(); i++)
-                            //Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
                     }
                     Toast.makeText(getApplicationContext(), logg, Toast.LENGTH_SHORT).show();
                     Toast.makeText(getApplicationContext(), "现在开始加载联系人", Toast.LENGTH_SHORT).show();
@@ -139,7 +139,7 @@ public class ShowContact extends AppCompatActivity
                     Toast.makeText(getApplicationContext(),"<magod>-空",Toast.LENGTH_SHORT).show();
 
                     //for(int i = 0; i<llllllllllsssssttt.size(); i++)
-                        //Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
 
                     Toast.makeText(getApplicationContext(), "update sccess", Toast.LENGTH_SHORT).show();
 
@@ -182,31 +182,31 @@ public class ShowContact extends AppCompatActivity
                         {
                             final String  res = requestList.get(location);
                             if(!(requestList.get(location).equals("queryFriendreaqust")))
-                            new AlertDialog.Builder(ShowContact.this).setTitle("好友请求").setMessage((res))
-                                    .setPositiveButton("确认添加", new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int which){
-                                            dialog.dismiss();
+                                new AlertDialog.Builder(ShowContact.this).setTitle("好友请求").setMessage((res))
+                                        .setPositiveButton("确认添加", new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog, int which){
+                                                dialog.dismiss();
 // SysPassDao pass = new SysPassDao(MainActivity.this);这里是自己写的方法，其他的是都需要的
 // pass.roleAll();
-                                            String request = "17 "+uuuid+" "+res;
-                                            handleRequest h = new handleRequest(LoginActivity.ip, LoginActivity.port, request, new ArrayList<String>(), mHandler, EAEYADDFRIEND);
-                                            h.start();
+                                                String request = "17 "+uuuid+" "+res;
+                                                handleRequest h = new handleRequest(LoginActivity.ip, LoginActivity.port, request, new ArrayList<String>(), mHandler, EAEYADDFRIEND);
+                                                h.start();
 
 
 
-                                            //ShowContact.this.finish();
-                                        }
-                                    })
-                                    .setNegativeButton("拒绝", new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int which)
-                                        {
-                                            dialog.dismiss();
+                                                //ShowContact.this.finish();
+                                            }
+                                        })
+                                        .setNegativeButton("拒绝", new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog, int which)
+                                            {
+                                                dialog.dismiss();
 
-                                            String request = "19 "+uuuid+" "+res;
-                                            handleRequest h = new handleRequest(LoginActivity.ip, LoginActivity.port, request, new ArrayList<String>(), mHandler, REJUECT);
-                                            h.start();
-                                        }
-                                    }).show();
+                                                String request = "19 "+uuuid+" "+res;
+                                                handleRequest h = new handleRequest(LoginActivity.ip, LoginActivity.port, request, new ArrayList<String>(), mHandler, REJUECT);
+                                                h.start();
+                                            }
+                                        }).show();
 
                             /*if(!(requestList.get(location).equals("queryFriendreaqust")))
                             new AlertDialog.Builder(ShowContact.this).setTitle("好友请求").setMessage(requestList.get(location))
@@ -322,8 +322,8 @@ public class ShowContact extends AppCompatActivity
     }
 
 
-//单选对话框
-int yourChoice;
+    //单选对话框
+    int yourChoice;
     private void showSingleChoiceDialog(){
         if(!(typeList.isEmpty()))
         {
@@ -385,7 +385,7 @@ int yourChoice;
             Intent intent2=new Intent(ShowContact.this,SearchContactsActivity.class);
             intent2.putExtra("id",uuuid);
             startActivity(intent2);
-    }
+        }
         //增加联系人
         else if (item.getItemId() == R.id.item_showaddContacts)
         {
@@ -396,7 +396,7 @@ int yourChoice;
         //增加朋友
         else if (item.getItemId() == R.id.item_addfriend)
         {
-             //String  friendid = "" ;
+            //String  friendid = "" ;
             AlertDialog.Builder builder = new AlertDialog.Builder(ShowContact.this);
 
             builder.setTitle("请输入好友号码");	//设置对话框标题
@@ -450,7 +450,7 @@ int yourChoice;
         //llllllllllsssssttt = new ArrayList<String>();
         adapter = new FruitAdapter(getApplicationContext(),R.layout.item_layout,fruitList);
         //for(int i = 0; i<llllllllllsssssttt.size(); i++)
-            //Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
 
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -533,7 +533,7 @@ int yourChoice;
 
                 for (int i = 0; i < deleteList.size(); i++)
                 {
-          //Toast.makeText(getApplicationContext(),"刪除的試試："+name,Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getApplicationContext(),"刪除的試試："+name,Toast.LENGTH_SHORT).show();
 
                     fruitList.remove(deleteList.get(i).intValue());
                 }
@@ -701,8 +701,8 @@ int yourChoice;
         {
             String []ss = revList.get(i).split(" ");
 
-          //name phone
-          fruitList.add(new Fruit(ss[0]+" "+ss[6], R.drawable.apple));
+            //name phone
+            fruitList.add(new Fruit(ss[0]+" "+ss[6], R.drawable.apple));
         }
     }
 
@@ -720,7 +720,7 @@ int yourChoice;
             {
                 String []ss = revList.get(i).split(" ");
 
-                    fruitList.add(new Fruit(ss[0] + "  " + ss[6], R.drawable.apple));
+                fruitList.add(new Fruit(ss[0] + "  " + ss[6], R.drawable.apple));
             }
         }
         else
@@ -741,10 +741,10 @@ int yourChoice;
         adapter = new FruitAdapter(getApplicationContext(),R.layout.item_layout,fruitList);
 
         //if(llllllllllsssssttt.size() == 0)
-           // Toast.makeText(getApplicationContext(),"<magod>-空",Toast.LENGTH_SHORT).show();
+        // Toast.makeText(getApplicationContext(),"<magod>-空",Toast.LENGTH_SHORT).show();
 
-       // f/or(int i = 0; i<llllllllllsssssttt.size(); i++)
-           // Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
+        // f/or(int i = 0; i<llllllllllsssssttt.size(); i++)
+        // Toast.makeText(getApplicationContext(),"listViewText-<"+i+">-<"+llllllllllsssssttt.get(i)+">",Toast.LENGTH_SHORT).show();
 
         listview.setAdapter(adapter);
 
@@ -847,7 +847,7 @@ int yourChoice;
                                         dialog.dismiss();
                                     }
                                 }).show();
-                    break;
+                        break;
 
 
                 }

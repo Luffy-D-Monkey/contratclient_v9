@@ -274,7 +274,6 @@ public class SearchContactsActivity extends AppCompatActivity
                 view = LayoutInflater.from(getContext()).inflate(resourceId, null);
                 //引入ViewHolder提升ListView的效率
                 viewHolder = new SearchContactsActivity.ViewHolder();
-                viewHolder.imageView = (ImageView) view.findViewById(R.id.fruit_image);
                 viewHolder.textView = (TextView) view.findViewById(R.id.fruit_name);
                 viewHolder.checkBox = (CheckBox) view.findViewById(R.id.item_checkbox);
                 view.setTag(viewHolder);
