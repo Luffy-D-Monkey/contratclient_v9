@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Carica\.android\build-cache\9cee2c04a2a58f9b22ebba48a269559d26e6e31e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="E:\AndroidProject\contratclient_v1\app\build\intermediates\pre-dexed\debug\classes_195726e9585d52994298239946fc7c8ef935deea.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\9cee2c04a2a58f9b22ebba48a269559d26e6e31e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_195726e9585d52994298239946fc7c8ef935deea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\ff7e8297563842453600c1c407004052bd4c51e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38bd930f637ecb5617cac2ccdfa416a328e34d1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\b6e528f89fae7da00d8384d410ca0051c0640e4b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2ac11c2b118da33ee3455f58d144193dd57cd54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\11c727ecf655d735b1973825bea11afe10b53bad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e82b40788cdaa42af6a0f4025d11001a74f056c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\eaba3b98b5db5570137b2c97ffe646724955b8ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80d4a1ae0e59a0f697c814554314dd79b3543727\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Carica\.android\build-cache\eaba3b98b5db5570137b2c97ffe646724955b8ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="E:\AndroidProject\contratclient_v1\app\build\intermediates\pre-dexed\debug\classes_80d4a1ae0e59a0f697c814554314dd79b3543727.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\4ecb3f8fb0b63e6622550d3d06e38059b78a17f7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a890c3bb800399e857cbe89e34fe68eb6264fbfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\776bec8a8ea8d55855f8630a1bc3edba4dd95210\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_45fab335e0ad32aa4e52163c5c379d12baffc437\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidProject\contratclient_v9\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8ac67365884596624db804c52f353b3a093b3853">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5d6c0f35962e38f256f7a71d6ca3720f4b0a35c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\c8322696f9493a25a3408d939737782be45d3596\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_638ff37f4e20dad55ff8bf0b9729eb91277cec3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\6aba213b0672eb783b0f018cf785de4b280b3d83\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15049741e00b23e419b2e8bdc53015bbc892243f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\34cc123e5664425dfac0648ad5eb2b98e4ed8529\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36b9aa23c1487df8c72b63080c7f68c8a88e82b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\2faf8837a66d35671494a0c0d815c255f0208d05\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e81ed750791c74704e5a5be4706388b1692d6db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\350765a8b4dc17fe39306fa9f04c1e9bd1120c55\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_89d4c8960cc9954c3feddbfb04937574a588d9ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_3ca9bd886bcf10cd6078c671c1969ad1c3a5db35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidProject\contratclient_v9\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cfae44c35acf6022d480478fa5a38ff3a64dc1f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\.android\build-cache\c83ab76df724da3f31009e1cbed0936f00f8ea10\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f1927b4d9098e819eb9915a91ad3bc489fea6b49\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Carica\.android\build-cache\6aba213b0672eb783b0f018cf785de4b280b3d83\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="E:\AndroidProject\contratclient_v1\app\build\intermediates\pre-dexed\debug\classes_15049741e00b23e419b2e8bdc53015bbc892243f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Carica\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\AndroidProject\contratclient_v9\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_b009bf5c8f17a89d5cedde4453a098f25130a26a\classes.dex" />
+    </item>
+
+</items>
